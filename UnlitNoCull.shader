@@ -1,4 +1,4 @@
-﻿Shader "Unlit/UnlitNoCull"
+﻿Shader "github-samena/UnlitNoCull"
 {
     Properties
     {
@@ -11,6 +11,7 @@
 
         Pass
         {
+            Cull Off
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
