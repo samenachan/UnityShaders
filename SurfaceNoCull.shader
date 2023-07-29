@@ -1,4 +1,4 @@
-﻿Shader "Custom/StandardNoCull"
+﻿Shader "github-samena/SurfaceNoCull"
 {
     Properties
     {
@@ -9,6 +9,7 @@
     }
     SubShader
     {
+        Cull Off
         Tags { "RenderType"="Opaque" }
         LOD 200
 
