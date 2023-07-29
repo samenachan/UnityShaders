@@ -1,4 +1,4 @@
-﻿Shader "github-samena/UnlitVertexColor"
+﻿Shader "github-samena/UnlitVertexColorNoCull"
 {
     Properties
     {
